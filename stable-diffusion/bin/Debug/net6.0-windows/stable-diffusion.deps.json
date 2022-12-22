@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "stable-diffusion/1.0.0": {
+        "dependencies": {
+          "NcnnDotNet": "2021.4.17"
+        },
+        "runtime": {
+          "stable-diffusion.dll": {}
+        }
+      },
+      "NcnnDotNet/2021.4.17": {
+        "runtime": {
+          "NcnnDotNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "stable-diffusion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NcnnDotNet/2021.4.17": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

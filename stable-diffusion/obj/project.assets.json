@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "NcnnDotNet/2021.4.17": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/NcnnDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NcnnDotNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NcnnDotNet/2021.4.17": {
+      "type": "project",
+      "path": "../NcnnDotNet/NcnnDotNet.csproj",
+      "msbuildProject": "../NcnnDotNet/NcnnDotNet.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "NcnnDotNet >= 2021.4.17"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\andre\\Desktop\\stable-diffusion 2\\stable-diffusion\\stable-diffusion.csproj",
+      "projectName": "stable-diffusion",
+      "projectPath": "C:\\Users\\andre\\Desktop\\stable-diffusion 2\\stable-diffusion\\stable-diffusion.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\Desktop\\stable-diffusion 2\\stable-diffusion\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\andre\\Desktop\\stable-diffusion 2\\NcnnDotNet\\NcnnDotNet.csproj": {
+              "projectPath": "C:\\Users\\andre\\Desktop\\stable-diffusion 2\\NcnnDotNet\\NcnnDotNet.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.exe
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.deps.json
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.runtimeconfig.json
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.dll
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.pdb
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\bin\Debug\net6.0-windows\NcnnDotNet.dll
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libNcnnDotNetNative.so
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libNcnnDotNetNative.so
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libNcnnDotNetNative.dylib
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\bin\Debug\net6.0-windows\runtimes\win-x64\native\NcnnDotNetNative.dll
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\stable_diffusion.Form1.resources
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.csproj.GenerateResource.cache
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.AssemblyInfo.cs
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.csproj.CopyComplete
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.dll
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\refint\stable-diffusion.dll
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.pdb
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.genruntimeconfig.cache
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion\stable-diffusion\obj\Debug\net6.0-windows\ref\stable-diffusion.dll
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.exe
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.deps.json
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.runtimeconfig.json
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.dll
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.pdb
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\NcnnDotNet.dll
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\NcnnDotNet.pdb
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable_diffusion.Form1.resources
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.csproj.GenerateResource.cache
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.AssemblyInfo.cs
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.csproj.CopyComplete
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.dll
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\refint\stable-diffusion.dll
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.pdb
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.genruntimeconfig.cache
+C:\Users\andre\Desktop\condivisa\c#\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\ref\stable-diffusion.dll
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.exe
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.deps.json
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.runtimeconfig.json
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.dll
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\stable-diffusion.pdb
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\NcnnDotNet.dll
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\bin\Debug\net6.0-windows\NcnnDotNet.pdb
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable_diffusion.Form1.resources
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.csproj.GenerateResource.cache
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.AssemblyInfo.cs
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.csproj.CopyComplete
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.dll
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\refint\stable-diffusion.dll
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.pdb
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\stable-diffusion.genruntimeconfig.cache
+C:\Users\andre\Desktop\stable-diffusion 2\stable-diffusion\obj\Debug\net6.0-windows\ref\stable-diffusion.dll
