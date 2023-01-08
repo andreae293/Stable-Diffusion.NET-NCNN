@@ -88,10 +88,14 @@ namespace stable_diffusion
             {
                 for (int i = 0; i < x_samples_ddim.W; i++)
                 {
-                   
-                    int c0 = (int)x_samples_ddim.Channel(0)[i + j * 512];
-                    int c1 = (int)x_samples_ddim.Channel(1)[i + j * 512];
-                    int c2 = (int)x_samples_ddim.Channel(2)[i + j * 512];
+
+                    int c0 = (int)x_samples_ddim[((i + j * 512)) + 0];
+                    int c1 = (int)x_samples_ddim[((i + j * 512)) + (512*512)];
+                    int c2 = (int)x_samples_ddim[((i + j * 512)) + (512*512*2)];
+
+                  //  int c0 = (int)x_samples_ddim.Channel(0)[i + j * 512]; //accessing pixels this way causes a memory leak?
+                  //  int c1 = (int)x_samples_ddim.Channel(1)[i + j * 512];
+                  //  int c2 = (int)x_samples_ddim.Channel(2)[i + j * 512];
 
                     bmp.SetPixel(i, j, Color.FromArgb(255, Clamp(c0, 0, 255), Clamp(c1, 0, 255), Clamp(c2,0,255))); ; //remap values that can be negative or over 255
                 }

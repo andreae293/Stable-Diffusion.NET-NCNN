@@ -5,7 +5,46 @@
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {}
+    ".NETCoreApp,Version=v6.0": {
+      "NcnnDotNet/0.0.0.20230101": {
+        "runtime": {
+          "lib/netstandard2.0/NcnnDotNet.dll": {
+            "assemblyVersion": "2023.1.1.0",
+            "fileVersion": "2023.1.1.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libNcnnDotNetNative.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libNcnnDotNetNative.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libNcnnDotNetNative.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/NcnnDotNetNative.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
   },
-  "libraries": {}
+  "libraries": {
+    "NcnnDotNet/0.0.0.20230101": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7gAIXNWdmoNMa8awVZwrP1LpleD3WqJ1fHrA/xh6B3CvezSngTszWvwB9jVVwfQxDNEgMEoaNkpvj614mKYdtA==",
+      "path": "ncnndotnet/0.0.0.20230101",
+      "hashPath": "ncnndotnet.0.0.0.20230101.nupkg.sha512"
+    }
+  }
 }

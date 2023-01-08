@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NcnnDotNet\NcnnDotNet.csproj" />
+    <PackageReference Include="NcnnDotNet" Version="0.0.0.20230101" />
   </ItemGroup>
 
 </Project>

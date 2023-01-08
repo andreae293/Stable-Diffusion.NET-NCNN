@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qrbwvfcFNCxytoZn6hHviDIoKVDoAK7uy4OZBImWFPA0vQ0DRH8fT7WiTnLvl5M07xSVfEhSmS+AY08QPj6t9A==",
+  "dgSpecHash": "MfP45axuLnIeXjrKKb3HWAcv2mH/PnM2Bb+uTGbGAC5Vb8ud9W1sC4GtHBalIzF50y4UROJlcJFgf1DlqiGx2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Desktop\\stable-diffusion 2\\stable-diffusion\\stable-diffusion.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\andre\\Documents\\Github\\Stable-Diffusion.NET-NCNN\\stable-diffusion\\stable-diffusion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\ncnndotnet\\0.0.0.20230101\\ncnndotnet.0.0.0.20230101.nupkg.sha512"
+  ],
   "logs": []
 }
