@@ -1,8 +1,7 @@
 # Stable-Diffusion.NET-NCNN
 
 A c# port of [Stable-Diffusion-NCNN](https://github.com/EdVince/Stable-Diffusion-NCNN) using [NcnnDotNet](https://github.com/takuya-takeuchi/NcnnDotNet) libraries.
-The code uses only CPU and requires 12GB ram, against the 8GB of the original ncnn-based SD.
-
+The code uses only CPU and requires ~~12GB~~ 8.2GB ram, against the 8GB of the original ncnn-based SD.
 Project was created with Visual Studio 2022
 
 ## Usages
