@@ -8,17 +8,17 @@
     ".NETCoreApp,Version=v6.0": {
       "stable-diffusion/1.0.0": {
         "dependencies": {
-          "NcnnDotNet": "0.0.0.20230101"
+          "NcnnDotNet": "0.0.0.20221224"
         },
         "runtime": {
           "stable-diffusion.dll": {}
         }
       },
-      "NcnnDotNet/0.0.0.20230101": {
+      "NcnnDotNet/0.0.0.20221224": {
         "runtime": {
           "lib/netstandard2.0/NcnnDotNet.dll": {
-            "assemblyVersion": "2023.1.1.0",
-            "fileVersion": "2023.1.1.0"
+            "assemblyVersion": "2022.12.24.0",
+            "fileVersion": "2022.12.24.0"
           }
         },
         "runtimeTargets": {
@@ -52,12 +52,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "NcnnDotNet/0.0.0.20230101": {
+    "NcnnDotNet/0.0.0.20221224": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7gAIXNWdmoNMa8awVZwrP1LpleD3WqJ1fHrA/xh6B3CvezSngTszWvwB9jVVwfQxDNEgMEoaNkpvj614mKYdtA==",
-      "path": "ncnndotnet/0.0.0.20230101",
-      "hashPath": "ncnndotnet.0.0.0.20230101.nupkg.sha512"
+      "sha512": "sha512-nWmHj/zN2EIPAa8UPe/UpF3SESZKWH9CP+sKqbr5JimLtsqCHTMRe9avhltAoznoq5Z37eKsDO99od+lcineKg==",
+      "path": "ncnndotnet/0.0.0.20221224",
+      "hashPath": "ncnndotnet.0.0.0.20221224.nupkg.sha512"
     }
   }
 }

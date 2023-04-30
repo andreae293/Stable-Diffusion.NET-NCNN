@@ -18,7 +18,7 @@ namespace stable_diffusion.SD
         public PromptSlover(Form1 f)
         {
             this.f = f;
-            net.Opt.UseVulkanCompute = false;
+            net.Opt.UseVulkanCompute = true;
             net.Opt.UseWinogradConvolution = false;
             net.Opt.UseSgemmConvolution = false;
             net.Opt.UseFP16Packed = true;

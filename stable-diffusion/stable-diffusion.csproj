@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NcnnDotNet" Version="0.0.0.20230101" />
+    <PackageReference Include="NcnnDotNet" Version="0.0.0.20221224" />
   </ItemGroup>
 
 </Project>

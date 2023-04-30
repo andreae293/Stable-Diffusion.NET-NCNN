@@ -14,30 +14,165 @@ namespace stable_diffusion.SD
     internal class DiffusionSlover
     {
         Net net = new Net();
-        float[] log_sigmas = new float[1000]; 
-        public DiffusionSlover(Form1 f)
+        float[] log_sigmas = new float[1000];
+        int h_size = 0;
+        int w_size = 0;
+        
+        public DiffusionSlover(Form1 f,int h ,int w ,int mode)
         {
             this.f = f;
-            net.Opt.UseWinogradConvolution = false;
-            net.Opt.UseVulkanCompute = false;
-            net.Opt.UseSgemmConvolution = false;
-            net.Opt.UseSgemmConvolution = false;
+            if (mode == 0)
+            {
+                net.Opt.UseWinogradConvolution = false;
+                net.Opt.UseSgemmConvolution = false;
+            }
+            else
+            {
+                net.Opt.UseWinogradConvolution = true;
+                net.Opt.UseSgemmConvolution = true;
+            }
+            net.Opt.UseVulkanCompute = true;
             net.Opt.UseFP16Packed = true;
             net.Opt.UseFP16Storage = true;
             net.Opt.UseFP16Arithmetic = true;
             net.Opt.UsePackingLayout = true;
-            net.LoadParam("./assets/UNetModel-fp16.param");
-            net.LoadModel("./assets/UNetModel-fp16.bin");
+
+
+            generate_param(h, w);
+            //net.LoadParam("assets/UNetModel-256-MHA-fp16-opt.param");
+            net.LoadParam($"assets/tmp-UNetModel-" + h.ToString() + "-" + w.ToString() + "-MHA-fp16.param");
+
+            net.LoadModel("./assets/UNetModel-MHA-fp16.bin");
 
             byte[] tmp_log_sigmas = File.ReadAllBytes("./assets/log_sigmas.bin");
             Buffer.BlockCopy(tmp_log_sigmas, 0, log_sigmas, 0, tmp_log_sigmas.Length);
             float tmp0 =   log_sigmas[0];
 
+            h_size = h / 8;
+            w_size = w / 8;
 
 
         }
+        public void generate_param(int height, int width)
+        {
+            string line;
+            StreamReader diffuserFile = new StreamReader("assets/UNetModel-base-MHA-fp16.param");
+            StreamWriter diffuserFileNew = new StreamWriter("assets/tmp-UNetModel-" + height.ToString() + "-" + width.ToString() + "-MHA-fp16.param");
 
-        float sample_gaus(Random r)
+            int cnt = 0;
+            while ((line = diffuserFile.ReadLine()) != null)
+            {
+                if (line.Substring(0, 7) == "Reshape")
+                {
+                    switch (cnt)
+                    {
+                        case 0:
+                            line = line.Substring(0, line.Length - 4) + (width * height / 8 / 8).ToString();
+                            break;
+                        case 1:
+                            line = line.Substring(0, line.Length - 7) + width / 8 + " 2=" + (height / 8).ToString();
+                            break;
+                        case 2:
+                            line = line.Substring(0, line.Length - 4) + (width * height / 8 / 8).ToString();
+                            break;
+                        case 3:
+                            line = line.Substring(0, line.Length - 7) + width / 8 + " 2=" + (height / 8).ToString();
+                            break;
+                        case 4:
+                            line = line.Substring(0, line.Length - 4) + (width * height / 2 / 2 / 8 / 8).ToString();
+                            break;
+                        case 5:
+                            line = line.Substring(0, line.Length - 7) + width / 2 / 8 + " 2=" + (height / 2 / 8).ToString();
+                            break;
+                        case 6:
+                            line = line.Substring(0, line.Length - 4) + (width * height / 2 / 2 / 8 / 8).ToString();
+                            break;
+                        case 7:
+                            line = line.Substring(0, line.Length - 7) + width / 2 / 8 + " 2=" + (height / 2 / 8).ToString();
+                            break;
+                        case 8:
+                            line = line.Substring(0, line.Length - 3) + (width * height / 4 / 4 / 8 / 8).ToString();
+                            break;
+                        case 9:
+                            line = line.Substring(0, line.Length - 7) + width / 4 / 8 + " 2=" + (height / 4 / 8).ToString();
+                            break;
+                        case 10:
+                            line = line.Substring(0, line.Length - 3) + (width * height / 4 / 4 / 8 / 8).ToString();
+                            break;
+                        case 11:
+                            line = line.Substring(0, line.Length - 7) + width / 4 / 8 + " 2=" + (height / 4 / 8).ToString();
+                            break;
+                        case 12:
+                            line = line.Substring(0, line.Length - 2) + (width * height / 8 / 8 / 8 / 8).ToString();
+                            break;
+                        case 13:
+                            line = line.Substring(0, line.Length - 5) + width / 8 / 8 + " 2=" + (height / 8 / 8).ToString();
+                            break;
+                        case 14:
+                            line = line.Substring(0, line.Length - 3) + (width * height / 4 / 4 / 8 / 8).ToString();
+                            break;
+                        case 15:
+                            line = line.Substring(0, line.Length - 7) + (width / 4 / 8).ToString() + " 2=" + (height / 4 / 8).ToString();
+                            break;
+                        case 16:
+                            line = line.Substring(0, line.Length - 3) + (width * height / 4 / 4 / 8 / 8).ToString();
+                            break;
+                        case 17:
+                            line = line.Substring(0, line.Length - 7) + (width / 4 / 8).ToString() + " 2=" + (height / 4 / 8).ToString();
+                            break;
+                        case 18:
+                            line = line.Substring(0, line.Length - 3) + (width * height / 4 / 4 / 8 / 8).ToString();
+                            break;
+                        case 19:
+                            line = line.Substring(0, line.Length - 7) + (width / 4 / 8).ToString() + " 2=" + (height / 4 / 8).ToString();
+                            break;
+                        case 20:
+                            line = line.Substring(0, line.Length - 4) + (width * height / 2 / 2 / 8 / 8).ToString();
+                            break;
+                        case 21:
+                            line = line.Substring(0, line.Length - 7) + (width / 2 / 8).ToString() + " 2=" + (height / 2 / 8).ToString();
+                            break;
+                        case 22:
+                            line = line.Substring(0, line.Length - 4) + (width * height / 2 / 2 / 8 / 8).ToString();
+                            break;
+                        case 23:
+                            line = line.Substring(0, line.Length - 7) + (width / 2 / 8).ToString() + " 2=" + (height / 2 / 8).ToString();
+                            break;
+                        case 24:
+                            line = line.Substring(0, line.Length - 4) + (width * height / 2 / 2 / 8 / 8).ToString();
+                            break;
+                        case 25:
+                            line = line.Substring(0, line.Length - 7) + (width / 2 / 8).ToString() + " 2=" + (height / 2 / 8).ToString();
+                            break;
+                        case 26:
+                            line = line.Substring(0, line.Length - 4) + (width * height / 8 / 8).ToString();
+                            break;
+                        case 27:
+                            line = line.Substring(0, line.Length - 7) + (width / 8).ToString() + " 2=" + (height / 8).ToString();
+                            break;
+                        case 28:
+                            line = line.Substring(0, line.Length - 4) + (width * height / 8 / 8).ToString();
+                            break;
+                        case 29:
+                            line = line.Substring(0, line.Length - 7) + (width / 8).ToString() + " 2=" + (height / 8).ToString();
+                            break;
+                        case 30:
+                            line = line.Substring(0, line.Length - 4) + (width * height / 8 / 8).ToString();
+                            break;
+                        case 31:
+                            line = line.Substring(0, line.Length - 7) + (width / 8).ToString() + " 2=" + (height / 8).ToString();
+                            break;
+                        default:
+                            break;
+                    }
+                    cnt++;
+                }
+                diffuserFileNew.WriteLine(line);
+            }
+            diffuserFileNew.Close();
+            diffuserFile.Close();
+        }
+            float sample_gaus(Random r)
         {
             double u1 = 1.0 - r.NextDouble(); 
             double u2 = 1.0 - r.NextDouble();
@@ -49,7 +184,7 @@ namespace stable_diffusion.SD
         {
             Random rand = new Random(seed); 
             
-            NcnnDotNet.Mat cv_x = new NcnnDotNet.Mat(64, 64, 4);
+            NcnnDotNet.Mat cv_x = new NcnnDotNet.Mat(w_size, h_size, 4);
             //(cv::Size(64, 64), CV_32FC4);
 
             for (int ct = 0; ct < 4; ct++)
@@ -130,7 +265,7 @@ namespace stable_diffusion.SD
             for (int c = 0; c < 4; c++)
             {
 
-                for (int hw = 0; hw < 64 * 64; hw++)
+                for (int hw = 0; hw < h_size * w_size; hw++)
                 {
                     denoised_uncond.Channel(c)[hw] = denoised_uncond.Channel(c)[hw] + 7 * (denoised_cond.Channel(c)[hw] - denoised_uncond.Channel(c)[hw]);
 
@@ -185,7 +320,7 @@ namespace stable_diffusion.SD
                     for (int ct = 0; ct < 4; ct++)
                     {
 
-                        for (int hw = 0; hw < 64 * 64; hw++)
+                        for (int hw = 0; hw < h_size * w_size; hw++)
                         {
                             x_mat.Channel(ct)[hw] = x_mat.Channel(ct)[hw] + ((x_mat.Channel(ct)[hw] - denoised.Channel(ct)[hw]) / sigma[i]) * (sigma_down - sigma[i]) + randn.Channel(ct)[hw] * sigma_up;
 

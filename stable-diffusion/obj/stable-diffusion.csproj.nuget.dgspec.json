@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\Documents\\Github\\Stable-Diffusion.NET-NCNN\\stable-diffusion\\stable-diffusion.csproj": {}
+    "C:\\Users\\andre\\Desktop\\condivisa\\c#\\stable-diffusion 3\\stable-diffusion\\stable-diffusion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\Documents\\Github\\Stable-Diffusion.NET-NCNN\\stable-diffusion\\stable-diffusion.csproj": {
+    "C:\\Users\\andre\\Desktop\\condivisa\\c#\\stable-diffusion 3\\stable-diffusion\\stable-diffusion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Documents\\Github\\Stable-Diffusion.NET-NCNN\\stable-diffusion\\stable-diffusion.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Desktop\\condivisa\\c#\\stable-diffusion 3\\stable-diffusion\\stable-diffusion.csproj",
         "projectName": "stable-diffusion",
-        "projectPath": "C:\\Users\\andre\\Documents\\Github\\Stable-Diffusion.NET-NCNN\\stable-diffusion\\stable-diffusion.csproj",
+        "projectPath": "C:\\Users\\andre\\Desktop\\condivisa\\c#\\stable-diffusion 3\\stable-diffusion\\stable-diffusion.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Documents\\Github\\Stable-Diffusion.NET-NCNN\\stable-diffusion\\obj\\",
+        "outputPath": "C:\\Users\\andre\\Desktop\\condivisa\\c#\\stable-diffusion 3\\stable-diffusion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,7 +46,7 @@
           "dependencies": {
             "NcnnDotNet": {
               "target": "Package",
-              "version": "[0.0.0.20230101, )"
+              "version": "[0.0.0.20221224, )"
             }
           },
           "imports": [
@@ -67,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     }

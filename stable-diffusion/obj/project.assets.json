@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
-      "NcnnDotNet/0.0.0.20230101": {
+      "NcnnDotNet/0.0.0.20221224": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/NcnnDotNet.dll": {}
@@ -32,10 +32,10 @@
     }
   },
   "libraries": {
-    "NcnnDotNet/0.0.0.20230101": {
-      "sha512": "7gAIXNWdmoNMa8awVZwrP1LpleD3WqJ1fHrA/xh6B3CvezSngTszWvwB9jVVwfQxDNEgMEoaNkpvj614mKYdtA==",
+    "NcnnDotNet/0.0.0.20221224": {
+      "sha512": "nWmHj/zN2EIPAa8UPe/UpF3SESZKWH9CP+sKqbr5JimLtsqCHTMRe9avhltAoznoq5Z37eKsDO99od+lcineKg==",
       "type": "package",
-      "path": "ncnndotnet/0.0.0.20230101",
+      "path": "ncnndotnet/0.0.0.20221224",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -46,7 +46,7 @@
         "lib/netstandard2.0/NcnnDotNet.dll",
         "licenses/OpenCV.txt",
         "licenses/ncnn.txt",
-        "ncnndotnet.0.0.0.20230101.nupkg.sha512",
+        "ncnndotnet.0.0.0.20221224.nupkg.sha512",
         "ncnndotnet.nuspec",
         "runtimes/linux-arm64/native/libNcnnDotNetNative.so",
         "runtimes/linux-x64/native/libNcnnDotNetNative.so",
@@ -57,7 +57,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "NcnnDotNet >= 0.0.0.20230101"
+      "NcnnDotNet >= 0.0.0.20221224"
     ]
   },
   "packageFolders": {
@@ -67,11 +67,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\Documents\\Github\\Stable-Diffusion.NET-NCNN\\stable-diffusion\\stable-diffusion.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Desktop\\condivisa\\c#\\stable-diffusion 3\\stable-diffusion\\stable-diffusion.csproj",
       "projectName": "stable-diffusion",
-      "projectPath": "C:\\Users\\andre\\Documents\\Github\\Stable-Diffusion.NET-NCNN\\stable-diffusion\\stable-diffusion.csproj",
+      "projectPath": "C:\\Users\\andre\\Desktop\\condivisa\\c#\\stable-diffusion 3\\stable-diffusion\\stable-diffusion.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\Documents\\Github\\Stable-Diffusion.NET-NCNN\\stable-diffusion\\obj\\",
+      "outputPath": "C:\\Users\\andre\\Desktop\\condivisa\\c#\\stable-diffusion 3\\stable-diffusion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -106,7 +106,7 @@
         "dependencies": {
           "NcnnDotNet": {
             "target": "Package",
-            "version": "[0.0.0.20230101, )"
+            "version": "[0.0.0.20221224, )"
           }
         },
         "imports": [
@@ -127,7 +127,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
       }
     }
   }
