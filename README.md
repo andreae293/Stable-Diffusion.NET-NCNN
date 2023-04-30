@@ -11,8 +11,11 @@ Added support for different size images and fast speed high ram mode.
 
 Download from [GDrive](https://drive.google.com/drive/folders/1myB4uIQ2K5okl51XDbmYhetLF9rUyLZS?usp=sharing) the 3 .bin models (about 2GB in total) and put them in the "[assets](https://github.com/andreae293/Stable-Diffusion.NET-NCNN/tree/main/stable-diffusion/bin/Debug/net6.0-windows/assets)" folder, then start the stable-diffusion.exe or compile it yourself.
 The 3 .bin files are:
+
 -AutoencoderKL-fp16.bin
+
 -FrozenCLIPEmbedder-fp16.bin
+
 -UNetModel-MHA-fp16.bin
 
 ![image](./img-example/sd.net.png)
